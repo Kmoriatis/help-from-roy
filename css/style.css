@@ -1,3 +1,10 @@
+@font-face {
+   font-family: 'Pacifico';
+   src: url('../fonts/Q_Z9mv4hySLTMoMjnk_rCXYhjbSpvc47ee6xR_80Hnw.woff2') format('woff');
+   font-weight: 400;
+   font-style: normal;
+}
+
 html {
    min-width: 100%;
    min-height: 100%;
@@ -5,8 +12,30 @@ html {
 }
 
 body {
+   background-image: url('../comps/focus.jpg');
    width: 1600px;
    height: 2494px;
+}
+
+header {
+   /*background: url('../img/large-banner-image.png');*/
+   height: 700px;
+}
+
+header > h1 {
+   font-family: Pacifico, sans-serif;
+   font-size: 60px;
+   padding-top: 120px;
+   text-align: center;
+}
+
+header > div {
+   text-align: center;
+}
+
+main,
+footer {
+   display: none;
 }
 
 .sec1 {
@@ -32,22 +61,10 @@ body {
    background-color: #f4f4f4;
 }
 
-header h1 {
-   font-size: 320%;
-   z-index: 1;
-   transform: translate(745px, -647px);
-}
-
 footer {
    transform: translate(0, -155px);
    height: 134px;
    background-color: #e3e3e3;
-}
-
-header p {
-   font-size: 230%;
-   z-index: 1;
-   transform: translate(462px, -585px);
 }
 
 .h1 {
